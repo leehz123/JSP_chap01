@@ -3,7 +3,7 @@
 ## [src/main/java/chap1\]
 
 ### ServletBasic.java
-#### 서블릿 기초 <%! 훤하는 메소드 추가할 수 있는 부분. 클래스 내부 %> <% 사용자가 요청을 보내면 처리해주는 부분. 메소드 내부 %> <%@ 그 외 설정 %>
+#### 서블릿 기초 <%! 원하는 메소드 추가할 수 있는 부분. 클래스 내부 %> <% 사용자가 요청을 보내면 처리해주는 부분. 메소드 내부 %> <%@ 그 외 설정 %>
 @WebServlet("/servlet/gugudan")
 
 PrintWriter out = resp.getWriter();
